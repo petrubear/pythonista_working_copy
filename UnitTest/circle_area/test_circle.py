@@ -19,4 +19,7 @@ class TestCircleArea(unittest.TestCase):
         self.assertRaises(TypeError, area, 3 + 5j)
         self.assertRaises(TypeError, area, True)
         self.assertRaises(TypeError, area, "radius")
-        
+     
+#run from app
+if __name__ == '__main__':
+  unittest.main()
