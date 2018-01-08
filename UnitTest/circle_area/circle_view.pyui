@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 17}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_radius",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "2F6C4426-97F5-433A-B2D9-27263BE3AD82",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Radius",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 57}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "txt_radius",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "319B21A4-478E-4085-966A-C6AE785418B2",
+          "alignment" : "left",
+          "text" : "1",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{45, 104}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_area",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "6777C950-2F2D-4D65-9042-C681596D80C8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "0.0",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{84, 152}, {80, 35}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "btn_area_onclick",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Area",
+          "uuid" : "F427AF48-D930-483A-9E35-190D178DD5A0",
+          "class" : "Button",
+          "name" : "btn_area",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
