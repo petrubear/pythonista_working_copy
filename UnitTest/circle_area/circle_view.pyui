@@ -5,14 +5,14 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 17}, {150, 32}}",
+        "frame" : "{{14, 17}, {62, 32}}",
         "class" : "Label",
         "attributes" : {
           "name" : "lbl_radius",
           "frame" : "{{45, 104}, {150, 32}}",
           "uuid" : "2F6C4426-97F5-433A-B2D9-27263BE3AD82",
           "class" : "Label",
-          "alignment" : "left",
+          "alignment" : "right",
           "text" : "Radius",
           "font_size" : 18,
           "font_name" : "<System>"
@@ -23,7 +23,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 57}, {200, 32}}",
+        "frame" : "{{95, 17}, {131, 32}}",
         "class" : "TextField",
         "attributes" : {
           "name" : "txt_radius",
@@ -31,28 +31,48 @@
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "319B21A4-478E-4085-966A-C6AE785418B2",
-          "alignment" : "left",
+          "alignment" : "right",
           "text" : "1",
           "autocorrection_type" : "default",
           "font_size" : 17,
           "font_name" : "<System>"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
 
         ],
-        "frame" : "{{45, 104}, {150, 32}}",
+        "frame" : "{{47, 129}, {146, 34}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "btn_area_onclick",
+          "border_width" : 0,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "F427AF48-D930-483A-9E35-190D178DD5A0",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "font_bold" : true,
+          "name" : "btn_area",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 64}, {62, 32}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "lbl_area",
-          "frame" : "{{45, 104}, {150, 32}}",
-          "uuid" : "6777C950-2F2D-4D65-9042-C681596D80C8",
-          "class" : "Label",
-          "alignment" : "left",
-          "text" : "0.0",
           "font_size" : 18,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "21571A6A-FD1E-46F4-9C5E-76F67A62914D",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "Area",
+          "name" : "lbl_area",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -61,21 +81,24 @@
         "nodes" : [
 
         ],
-        "frame" : "{{84, 152}, {80, 35}}",
-        "class" : "Button",
+        "frame" : "{{95, 64}, {131, 32}}",
+        "class" : "TextField",
         "attributes" : {
-          "action" : "btn_area_onclick",
-          "frame" : "{{80, 104}, {80, 32}}",
-          "title" : "Area",
-          "uuid" : "F427AF48-D930-483A-9E35-190D178DD5A0",
-          "class" : "Button",
-          "name" : "btn_area",
-          "font_size" : 15
+          "font_size" : 17,
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "76046FF1-FAE6-496E-A57F-55557FAFDB72",
+          "alignment" : "right",
+          "text" : "0.0",
+          "autocorrection_type" : "default",
+          "name" : "txt_area",
+          "font_name" : "<System>"
         },
         "selected" : false
       }
     ],
-    "frame" : "{{0, 0}, {240, 240}}",
+    "frame" : "{{0, 0}, {241, 211}}",
     "class" : "View",
     "attributes" : {
       "enabled" : true,

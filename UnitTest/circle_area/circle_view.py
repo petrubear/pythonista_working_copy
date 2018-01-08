@@ -3,9 +3,9 @@ from circle import area
 
 def btn_area_onclick(sender):
   view = sender.superview
-  larea = view['lbl_area']
+  tarea = view['txt_area']
   tradius = view['txt_radius']
-  larea.text = str(area(float(tradius.text)))
+  tarea.text = '{:f}'.format(area(float(tradius.text)))
     
     
 v = ui.load_view()
